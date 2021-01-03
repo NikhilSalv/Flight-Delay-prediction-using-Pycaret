@@ -44,7 +44,7 @@ After EDA part, we have sampled the data randomly into train dataset and test da
 
 - # Pycaret library
 From Pycaret library we have imported all the libraries.
-From sklearn, we have imported Random Forest Classifier and applied the algorithm on the train data. 
- After predicting the model on x_test, we have built counfusion matrix on y_test and predicted values.
- The model gives the accuracy of 98 %.
- 
+Then we compare the classification algorithms on the dataset. 
+Among the 15 classification algorithms, the best of 3 are Extreme Gradient Boosting, Logistic Regression and Decision tree Algorithm.
+We have chosen Logistic regression algorithm to build our model, because I am more familier with that algorithm.
+The mean accuracy of 10 fold cross validation is 99.30%
